@@ -15,6 +15,67 @@ body {
     flex-direction: row;
 }
 
+.comment-section {
+    display: flex;
+    flex-direction: column;
+}
+
 .hidden {
     display: none;
+}
+
+.card-comment {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-color: rgb(243, 243, 243);
+    padding: 0.5rem;
+}
+
+.comment-input {
+    display: flex;
+    width: 50%;
+}
+
+.logo {
+    width: 25%;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.study-picture {
+    width: 30%;
+}
+
+.body-card {
+    box-shadow: 0 100px 50px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    backdrop-filter: blur(10px);
+    background-color: rgba(200, 200, 175, 0.5);
+    ;
+    padding: 0.5rem;
+    max-width: 80%;
+    margin: auto;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.nameText {
+    text-align: right;
+}
+
+.translate-box {
+    width: 15%;
+    height: 10%;
+    /* padding-top: 5px; */
+}
+
+.voice-pic {
+    width: 3%;
+    height: 3%;
 }
