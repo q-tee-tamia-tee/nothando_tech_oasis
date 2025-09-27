@@ -2,7 +2,7 @@ const button = document.getElementById('aboutButton');
 const textElement = document.getElementById('aboutText');
 
 SITE_ID = "https://github.com/q-tee-tamia-tee/nothando_tech_oasis"
-STUDNET_NUM = "0010"
+STUDNET_NUM = "111"
 button.addEventListener('click', function () {
     // Toggle the 'hidden' class on the text element
     textElement.classList.toggle('hidden');
