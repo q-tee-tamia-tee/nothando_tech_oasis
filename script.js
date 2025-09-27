@@ -62,5 +62,6 @@ g10_comment.addEventListener('click', async function () {
     const inputValue = inputElement.value;
     // console.log(inputValue)
     await postComment(STUDNET_NUM, SITE_ID, inputValue, "Noluthando")
+    await test()
 })
 
